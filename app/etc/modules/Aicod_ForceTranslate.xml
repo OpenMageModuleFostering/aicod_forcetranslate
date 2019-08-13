@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aicod_ForceTranslate>
+            <active>1</active>
+            <codePool>community</codePool>
+            
+            <depends>
+                <Mage_Core />
+            </depends>
+            
+        </Aicod_ForceTranslate>
+    </modules>
+</config>

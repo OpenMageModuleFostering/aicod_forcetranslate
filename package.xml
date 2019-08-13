@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+    <name>Aicod_ForceTranslate</name>
+    <version>1.0.80266618</version>
+    <stability>stable</stability>
+    <license uri="http://www.ecommercegrow.com/license">http://www.ecommercegrow.com/license</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>www.ecommercegrow.com</summary>
+    <description>www.ecommercegrow.com</description>
+    <notes>www.ecommercegrow.com</notes>
+    <authors>
+      <author>
+        <name>ecommercegrow</name>
+        <user>ecommercegrow</user>
+        <email>info@ecommercegrow.com</email>
+      </author>
+    </authors>
+    <compatible/>
+    <dependencies>
+      <required>
+        <php>
+          <min>5.2.0</min>
+          <max>6.0.0</max>
+        </php>
+      </required>
+    </dependencies>
+    <date>2013-07-02</date>
+    <time>10:52:53</time>
+    <contents>
+      <target name="mage"><dir name="app"><dir name="etc"><dir name="modules"><file name="Aicod_ForceTranslate.xml" hash="b04dc04259d01d60b5ea0921ea816314"/></dir></dir><dir name="code"><dir name="community"><dir name="Aicod"><dir name="ForceTranslate"><dir name="Model"><file name="Translate.php" hash="8008caeeefdd0baca3c07b68f734f37a"/></dir><dir name="etc"><file name="config.xml" hash="55bd4dcb8624550f709400aab414650b"/></dir><file name="LICENSE.TXT" hash="b92e3a09e0ec51ac8d9a5caf61932035"/><file name="README.TXT" hash="78cc1dbb5c58a2605422332d9b980e8c"/></dir></dir></dir></dir></dir></target>
+    </contents>
+</package>

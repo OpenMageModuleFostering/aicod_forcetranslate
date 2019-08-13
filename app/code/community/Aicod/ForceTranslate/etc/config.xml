@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<config>
+  <modules>
+      <Aicod_ForceTranslate>
+          <version>1.0</version>
+      </Aicod_ForceTranslate>
+  </modules>
+  
+  <global>
+  
+    <models>
+      
+      <core>
+        <rewrite>
+          <translate>Aicod_ForceTranslate_Model_Translate</translate>
+        </rewrite>
+      </core>
+
+    </models>
+    
+  </global>
+  
+</config>
