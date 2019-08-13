@@ -2,11 +2,10 @@ Aicod_ForceTranslate
 http://www.ecommercegrow.com/
 
 Purpose:
-- This module allows to bypass any other module translation forcing magento to always translate a phrase as you specify in the translate_force.csv file.
-  Additionally you can insert some traslations in the translate_fallback.csv file so if some module does not traslate a phrase your fallback one will be used.
-  These file are located at:
+- Some "magento translations keys" like simple ones "start", "qty" and others are repeated for every "scope" like: "Mage_Sales.csv", "Mage_Checkout.csv" etc.
+  this extension allow you to bypass any scope and keep the core csv files not modified, all you need to to is insert you translation in:
   {MAGENTO_ROOT}/app/design/frontend/{PACKAGE}/{THEME}/locale/{LOCALE_CODE}/translate_force.csv
-  {MAGENTO_ROOT}/app/design/frontend/{PACKAGE}/{THEME}/locale/{LOCALE_CODE}/translate_fallback.csv
+  LOCALE_CODE uses the same folder names you find in: {MAGENTO_ROOT}/app/locale
 
 Compatibility:
 - Magento 1.7+
@@ -25,5 +24,4 @@ Uninstallation:
 Configuration / Usage:
 - Once installed the extension become immediatly active.
 - Edit {MAGENTO_ROOT}/app/design/frontend/{PACKAGE}/{THEME}/locale/{LOCALE_CODE}/translate_force.csv
-- Edit {MAGENTO_ROOT}/app/design/frontend/{PACKAGE}/{THEME}/locale/{LOCALE_CODE}/translate_fallback.csv
   
