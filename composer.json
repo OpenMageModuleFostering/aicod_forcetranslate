@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Aicod_ForceTranslate",
+    "name": "OpenMageModuleFostering\/Aicod_ForceTranslate",
     "type": "magento-module",
-    "license": "http://www.ecommercegrow.com/license",
+    "license": "http:\/\/www.ecommercegrow.com\/license",
     "homepage": "",
     "description": "www.ecommercegrow.com",
     "authors": [
-    {
-        "name": "ecommercegrow",
-        "email": "info@ecommercegrow.com"
-    }
-],
+        {
+            "name": "ecommercegrow",
+            "email": "info@ecommercegrow.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
